@@ -27,7 +27,7 @@ body{
 }
 
 .seat{
-    background-color: white;
+    background-color:black;
     height: 12px;
     width:15px;
     margin: 3px;
@@ -53,6 +53,30 @@ body{
     cursor:pointer;
     transform: scale(1,2);
 }
+.legend{
+    background-color:brown;
+    padding: 5px, 10px;
+    border-radius: 5px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
 
-
-
+}
+.legend li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    }
+.legend li small{
+    margin-left: 2px;
+}
+.row{
+    display: flex;
+}
+.p.text{
+    margin: 5px 0;
+}
+p.text span{
+    color:violet
+}
