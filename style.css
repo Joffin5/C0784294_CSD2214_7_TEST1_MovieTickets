@@ -66,6 +66,7 @@ body{
     padding: 5px, 10px;
     border-radius: 5px;
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
@@ -91,5 +92,5 @@ p.text span{
     color:violet
 }
 p{
-    f: red;
+    font-family: 'Times New Roman', Times, serif;
 }
