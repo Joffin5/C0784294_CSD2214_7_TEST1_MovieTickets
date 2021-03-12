@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>MOVIE TICKETS SELECTION</h1>
     <!-- movie details has been added-->
     <div class="Movies">
-        <label for="" class="title">select movies here</label>
+        <label for="" class="title">Select movies here</label>
         <select name="" id="films">
             <option value="14">How to train your dragon<span class="price">$14.00</span></option>
             <option value="17">Eragon<span class="price">$17.00</span></option>
@@ -19,69 +20,61 @@
             <option value="14">Rongo<span class="price">$14.00</span></option>
 
         </select>
-    </div class="filminformation">
-    <div class="seat information"></div>
+    </div >
+    <div class="availabale seats"></div>
     <small>Available seats</small>
-    <div class="seat information selection"></div>
+    <div class="selected seats"></div>
     <small>Selected seats</small>
     <div class="occupied seats"></div>
     <small>Occupied seats</small>
 
     </div>
     <!--first row of seats-->
-    <div class="row" id="1">
-        <div class= "rowNumber" id="1"></div>
-        <div class= "seat" id="1"></div>
-        <div class= "seat" id="2"></div>
-        <div class= "seat" id="3"></div>
-        <div class= "seat" id="4"></div>
-        <div class= "seat" id="5"></div>
-        <div class= "seat" id="6"></div>
-        <div class= "seat" id="7"></div>
-        <div class= "seat" id="8"></div>
+    <div class="container">
+        <div class= "row"</div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
 
     </div>
 <!--second row of seats-->
-    <div class="row" id="2">
-        <div class= "rowNumber" id="2"></div>
-        <div class= "seat" id="1"></div>
-        <div class= "seat" id="2"></div>
-        <div class= "seat" id="3"></div>
-        <div class= "seat" id="4"></div>
-        <div class= "seat" id="5"></div>
-        <div class= "seat" id="6"></div>
-        <div class= "seat" id="7"></div>
-        <div class= "seat" id="8"></div>
+        <div class= "row"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat occupied"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
 
     </div>
 <!--third row of seats-->
-    <div class="row" id="3">
-        <div class= "rowNumber" id="3"></div>
-        <div class= "seat" id="1"></div>
-        <div class= "seat" id="2"></div>
-        <div class= "seat" id="3"></div>
-        <div class= "seat" id="4"></div>
-        <div class= "seat" id="5"></div>
-        <div class= "seat" id="6"></div>
-        <div class= "seat" id="7"></div>
-        <div class= "seat" id="8"></div>
+        <div class= "row"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat"></div>
+        <div class= "seat" ></div>
 
     </div>
-    <div class="payment">
-        <div class="checkOut"></div>
-        <span>Remaining(Selected/Free)</span>
-        <div class="post"></div>
-        <br>
-        <div class="checkoutAmount"></div>
-            <span class="seats"></span><span class="total seats" >0</span>
-            <span>Total $:</span><span class="cost"></span>
-    </div>
-    <div class="">
+   </div>
+    <p class="payment">
+   Selected number of seats<span id="count">0</span> price $:<span id="price">0</span>
+   </span>
         <form action="">
             <button type="Submit" class="buyButton">Buy Seats</button>
         </form>
 
-    </div>
+    </p>
     <script src="js.js"></script>
     
 </body>
