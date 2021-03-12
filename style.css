@@ -3,6 +3,7 @@ h1{
 }
 body{
     background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
     display: flex;
     flex-direction: column;
@@ -46,10 +47,10 @@ body{
 }
 
 .seat:nth-of-type(2){
-    margin-right: 18px;
+    margin-right: 19px;
 }
 .seat:nth-last-of-type(2){
-    margin-left: 18px;
+    margin-left: 55px;
 
 }
 .seat:not(.occupied):hover{
@@ -88,4 +89,7 @@ body{
 }
 p.text span{
     color:violet
+}
+p{
+    f: red;
 }
